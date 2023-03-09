@@ -425,11 +425,11 @@ function App() {
         });
     });
 
-    // <Hero />
     return _react2.default.createElement(
         "div",
         null,
         _react2.default.createElement(_Navbar2.default, null),
+        _react2.default.createElement(_Hero2.default, null),
         _react2.default.createElement(
             "section",
             { className: "cards-list" },

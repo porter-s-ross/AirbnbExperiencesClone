@@ -33,19 +33,22 @@ section {
 .hero {
     display: flex;
     flex-direction: column;
+    
 }
 
 .hero--photo {
-    max-width: 400px;
+    max-width: 800px;
     align-self: center;
 }
 
 .hero--header {
     margin-bottom: 16px;
+    margin-left: 2rem;
 }
 
 .hero--text {
     margin-top: 0;
+    margin-left: 2rem
 }
 
 .cards-list {
@@ -53,15 +56,18 @@ section {
     flex-wrap: nowrap;
     gap: 20px;
     overflow-x: auto;
+    justify-content: center;
+    /* margin: 0 2rem; */
 }
 
 .card {
     width: 175px;
     font-size: 12px;
-    flex: 0 0 auto;         /* ADD */
-    display: flex;          /* ADD */
-    flex-direction: column; /* ADD */
+    flex: 0 0 auto;     
+    display: flex;          
+    flex-direction: column; 
     position: relative;
+    margin: 0 1rem
 }
 
 .card--image {
@@ -70,7 +76,7 @@ section {
     margin-bottom: 9px;
 }
 
-/* ADD */
+
 .card--title {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -85,7 +91,7 @@ section {
     height: 14px;
 }
 
-/* ADD */
+
 .card--price {
     margin-top: auto;
 }
